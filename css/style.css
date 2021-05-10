@@ -42,7 +42,6 @@ font-style: italic;}
 /* 3................. */
 
 .team{max-width: 750px;
-    min-width: 200px;
 margin: 0 auto;}
 .team-foto{
 margin: 5px auto;
@@ -57,6 +56,18 @@ align-items: center;
     border-radius: 50%;
     filter: grayscale(100%);}
 
-.team-facts h3 {color: yellow}
 
-.team-facts{text-align: center;}
+
+/* 4.............. */
+
+.cards{max-width: 750px;}
+.cards-items{
+display: flex;
+flex-direction: column;
+align-items: center;}
+
+.left, .right {height: 200px;
+width: 200px;}
+
+.txt-align{text-align: center;}
+

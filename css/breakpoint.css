@@ -17,10 +17,19 @@ right: 0;
 margin-left: auto; 
 margin-right: auto; 
 width: 80%;}
-
-
-
-
+/* 4............. */
+.cards{width: 60%;
+margin: 0 auto;}
+.left, .right {height: 120px;
+width: 120px;}
+.cards-items{margin-top: 250px;
+display: flex;
+flex-direction: row;
+}
+.card-item-top,.card-item-bottom{
+width: 50%;
+display: flex;
+}
 
 
 }
