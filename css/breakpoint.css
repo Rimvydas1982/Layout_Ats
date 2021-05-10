@@ -6,8 +6,22 @@ display: flex;
 flex-direction: row;
 text-align: center;
 justify-content: space-between;}
-
 .mg-top{margin-top: 18px;}
+/* 33333......... */
+
+.hero{position: relative;}
+.team{position: absolute;
+top: 480px;
+left: 0; 
+right: 0; 
+margin-left: auto; 
+margin-right: auto; 
+width: 80%;}
+
+
+
+
+
 
 }
 

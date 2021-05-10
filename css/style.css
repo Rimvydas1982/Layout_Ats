@@ -38,3 +38,25 @@ padding-top: 230px;
 font-size: xx-large;
 font-weight: bold;
 font-style: italic;}
+
+/* 3................. */
+
+.team{max-width: 750px;
+    min-width: 200px;
+margin: 0 auto;}
+.team-foto{
+margin: 5px auto;
+width: 80%;
+height: 200px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.img{height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    filter: grayscale(100%);}
+
+.team-facts h3 {color: yellow}
+
+.team-facts{text-align: center;}
