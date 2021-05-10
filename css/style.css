@@ -70,4 +70,15 @@ align-items: center;}
 width: 200px;}
 
 .txt-align{text-align: center;}
+/* 
+5............ */
+.footer-bg{padding: 10px;
+background-color: var(--grey);
+border-top: solid 5px var(--yellow);}
+.footer-item h4{color: var(--yellow);}
+ul {list-style-type: none;
+    color: var(--white);}
+li {margin-right: 35px;}
+
+    
 
