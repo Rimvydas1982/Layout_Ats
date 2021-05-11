@@ -2,6 +2,8 @@
 --grey:rgba(85, 81, 81, 0.836);
 --yellow:rgb(253, 249, 0);
 --white:rgba(216, 212, 212, 0.856);
+--red:rgba(179, 38, 19, 0.815);
 }
 
-.yellow{color:var(--yellow)}
+.yellow{color:var(--yellow)
+}

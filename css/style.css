@@ -1,12 +1,14 @@
 *{box-sizing: border-box;
-font-family: 'Times New Roman', Times, serif;}
-
+font-family: 'Times New Roman', Times, serif;
+}
 
 .navbar{width: 100%;
 padding: 5px;
-background-color: grey;}
+background-color: grey;
+}
 
 .container{
+max-width: 80%;
 margin: 0 auto;
 display: flex;
 flex-direction: column;
@@ -16,19 +18,25 @@ justify-content: center;
 
 .navbar-bg-img input[type="search"]{
 background-image: url(../img/search.svg);
-background-size: 25px;
+background-size: 20px;
 background-repeat: no-repeat;
 background-position: 50% left;
-padding-left: 25px;}
+padding-left: 25px;
+}
 
-.navbar-logo h3 {color: white;
-} 
-/* ................2 */
+.navbar-logo img{height: 40px;
+width: 150px;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
 .hero{background-image: url(../img/texture.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 height: 500px;
-width: 100%;}
+width: 100%;
+}
 
 .hero-content{text-align: center;
 padding-top: 230px;
@@ -37,12 +45,20 @@ padding-top: 230px;
 .hero-content span{color:var(--grey);
 font-size: xx-large;
 font-weight: bold;
-font-style: italic;}
+font-style: italic;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
-/* 3................. */
+.hero-content span:hover{color:var(--red);
+text-shadow: 36px 19px 5px var(--grey);
+cursor: pointer;
+}
+
 
 .team{max-width: 750px;
-margin: 0 auto;}
+margin: 0 auto;
+}
+
 .team-foto{
 margin: 5px auto;
 width: 80%;
@@ -51,34 +67,42 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
-.img{height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    filter: grayscale(100%);}
+
+.img{
+height: 150px;
+width: 150px;
+border-radius: 50%;
+filter: grayscale(100%);
+}
 
 
+.cards{max-width: 750px;
+}
 
-/* 4.............. */
-
-.cards{max-width: 750px;}
 .cards-items{
 display: flex;
 flex-direction: column;
-align-items: center;}
+align-items: center;
+}
 
 .left, .right {height: 200px;
-width: 200px;}
+width: 200px;
+}
 
-.txt-align{text-align: center;}
-/* 
-5............ */
+.txt-align{text-align: center;
+}
+
 .footer-bg{padding: 10px;
 background-color: var(--grey);
 border-top: solid 5px var(--yellow);}
-.footer-item h4{color: var(--yellow);}
-ul {list-style-type: none;
-    color: var(--white);}
-li {margin-right: 35px;}
+.footer-item h4{color: var(--yellow);
+}
 
-    
+.footer-item ul {
+    list-style-type: none;
+    color: var(--white);
+}
+li {margin-right: 35px;
+}
+
 

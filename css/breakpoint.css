@@ -1,39 +1,51 @@
 @media screen and (min-width:768px) {
+
 .navbar-bg-img{
 width: 60%;
 margin: 0 auto;
 display: flex;
 flex-direction: row;
 text-align: center;
-justify-content: space-between;}
-.mg-top{margin-top: 18px;}
-/* 33333......... */
+justify-content: space-between;
+}
 
-.hero{position: relative;}
+.mg-top{margin-top: 10px;
+}
+
+.hero{position: relative;
+}
+
 .team{position: absolute;
 top: 480px;
 left: 0; 
 right: 0; 
 margin-left: auto; 
 margin-right: auto; 
-width: 80%;}
-/* 4............. */
+width: 80%;
+}
+
 .cards{width: 60%;
-margin: 0 auto;}
+margin: 0 auto;
+}
+
 .left, .right {height: 120px;
-width: 120px;}
+width: 120px;
+}
+
 .cards-items{margin-top: 250px;
 display: flex;
 flex-direction: row;
 }
+
 .card-item-top,.card-item-bottom{
 width: 50%;
 display: flex;
 }
-/* 5.......... */
+i{padding-left: 10px;
+}
 
 .footer-items{width: 60%;
-    margin: 0 auto;
+margin: 0 auto;
 display: flex;
 justify-content: space-around;
 }
